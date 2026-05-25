@@ -1,5 +1,5 @@
 ---
-name: run-experiment
+name: cano-run-experiment
 description: Set up or run experiments using this repo's two-tag self-contained convention. Each experiment lives at `a_<high>/<detailed>/` and contains its own configs, dispatcher scripts, and runner. The skill ships reference templates for the dispatcher scripts; when the user asks Claude to "set up experiment X" or "integrate this convention under a_<something>", read the templates, scaffold the experiment dir, and copy the templates in. Trigger phrases include "set up an experiment", "scaffold experiment under …", "integrate this convention", "跑一个 X 的 row/cell", "sweep over Y", "fill the table", "add a row", "summarise results", "batched run".
 ---
 
